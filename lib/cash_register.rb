@@ -12,5 +12,8 @@ class CashRegister
     @cart << title 
   end
   
+  def apply_discount
+    if @discount > 0 
+      @discount 
 end
 
